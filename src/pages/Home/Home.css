@@ -72,3 +72,54 @@
 .more-cards{
     padding-left: 6%;
 }
+
+@media (max-width: 1024px) {
+    .hero-caption .title-cards{
+       display: none;
+    }
+
+    .hero-buttons{
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .hero-caption{
+        padding-left: 4%;
+    }
+
+    .caption-image{
+        width: 40%;
+        margin-bottom: 10px;
+    }
+    
+    .hero-caption p{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    
+     .hero-buttons .btn img{
+        width: 20px;
+    }
+    
+    .more-cards{
+        padding-left: 4%;
+    }
+}
+
+    @media (max-width: 500px) {
+        
+        .caption-image{
+            display: none;
+        }
+        
+        .hero-buttons .btn img{
+            width: 15px;
+        }
+        .hero-buttons .btn{
+            padding: 5px 10px;
+            gap: 5px;
+            font-size: 10px;
+        }
+    }

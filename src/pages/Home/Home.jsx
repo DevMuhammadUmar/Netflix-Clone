@@ -20,7 +20,7 @@ const Home = () => {
           <p>After discovering his ties to an ancient order, a young man embarks on a quest to protect Istanbul from mysterious immortal enemies.</p>
           <div className='hero-buttons'>
             <button className='btn'>
-              <img src={play_icon} alt="" />Play
+              <img className="play-icon" src={play_icon} alt="" />Play
             </button>
               <button className='btn dark-btn'>
               <img src={info_icon} alt="" />More Info
