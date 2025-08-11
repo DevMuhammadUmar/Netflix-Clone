@@ -11,7 +11,7 @@
 
 .hero-caption{
     position: absolute;
-    width: 100%;
+    width: 94%;
     bottom:0;
     left: 6%;
  
@@ -26,12 +26,15 @@
 .hero-caption p{
     max-width: 700px;
     font-size: 17px;
-    margin-bottom: 20px;
+    
 
 }
 
+
+
 .hero-buttons{
     display: flex;
+    margin-top: 10px;
     margin-bottom: 50px;
     gap: 10px;
 }
